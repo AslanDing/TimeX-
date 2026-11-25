@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.ipynb_checkpoints/
+
+# editors
+.vscode/
+.idea/
+.cursor/
+
+# data, checkpoints and outputs (not part of the repository)
+datasets/
+lightning_logs/
+*.pt
+*.pth
+*.pkl
+*.npz
+*.npy
+*.log
+*.err
+*.out
+experiments/*/models/
+experiments/*/results/
+experiments/*/visualization/
+experiments/unified/ckpt*/
+experiments/unified/cache*/
+experiments/unified/big/
+experiments/unified/results*/
+experiments/unified/logs/
+experiments/unified/jobs_*.txt
